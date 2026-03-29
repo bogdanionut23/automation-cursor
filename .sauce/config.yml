@@ -2,7 +2,7 @@ apiVersion: v1alpha
 kind: playwright
 sauce:
   region: eu-central-1
-  concurrency: 10
+  concurrency: 1
 playwright:
   version: package.json
   configFile: playwright.sauce.config.ts
