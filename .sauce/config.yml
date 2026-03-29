@@ -12,7 +12,7 @@ suites:
     platformName: Windows 11
     screenResolution: 1440x900
     testMatch:
-      - '**/*.spec.ts'
+      - '.*\.spec\.ts$'
     params:
       browserName: chromium
       project: Chromium
@@ -20,7 +20,7 @@ suites:
     platformName: Windows 11
     screenResolution: 1440x900
     testMatch:
-      - '**/*.spec.ts'
+      - '.*\.spec\.ts$'
     params:
       browserName: firefox
       project: Firefox
@@ -28,7 +28,7 @@ suites:
     platformName: Windows 11
     screenResolution: 1440x900
     testMatch:
-      - '**/*.spec.ts'
+      - '.*\.spec\.ts$'
     params:
       browserName: webkit
       project: Webkit
