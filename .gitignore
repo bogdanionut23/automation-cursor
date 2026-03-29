@@ -1,0 +1,17 @@
+node_modules
+playwright-report
+test-results
+dist
+.env
+.env.*
+!.env.example
+
+# Local clone of Sauce sample (nested .git causes issues)
+saucectl-playwright-example/
+
+
+
+
+
+
+

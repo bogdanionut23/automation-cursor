@@ -1,0 +1,39 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "description": "Standard user",
+    "canLogin": true
+  },
+  {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "description": "Locked out user",
+    "canLogin": false,
+    "expectedInvalidError": "locked_out"
+  },
+  {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "description": "Problem user",
+    "canLogin": true
+  },
+  {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce",
+    "description": "Performance glitch user",
+    "canLogin": true
+  },
+  {
+    "username": "error_user",
+    "password": "secret_sauce",
+    "description": "Error user",
+    "canLogin": true
+  },
+  {
+    "username": "visual_user",
+    "password": "secret_sauce",
+    "description": "Visual user",
+    "canLogin": true
+  }
+]
